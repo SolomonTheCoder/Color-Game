@@ -7,6 +7,7 @@
 }
 
 .gameInstruction h1 {
+  color: #34344e;
   margin: 10px 0;
 }
 
@@ -83,6 +84,7 @@
   border: 2px #566981 solid;
   font-size: 19px;
   font-weight: 700;
+  color: #34344e;
   cursor: pointer;
 }
 
@@ -101,7 +103,7 @@
     width: 100%;
   }
 
-  .optionBtn{
+  .optionBtn {
     text-align: center;
   }
 
@@ -124,7 +126,7 @@
     width: 100%;
   }
 
-  .optionBtn{
+  .optionBtn {
     text-align: center;
   }
 
