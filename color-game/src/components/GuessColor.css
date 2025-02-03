@@ -17,11 +17,11 @@
   margin: 10px 0;
 }
 
-.Btn {
+.optionBtn {
   margin: 10px 0;
 }
 
-.Btn button {
+.optionBtn button {
   margin: 0 10px;
   padding: 20px 40px;
   border-radius: 10px;
@@ -29,7 +29,7 @@
   cursor: pointer;
 }
 
-.Btn button:hover {
+.optionBtn button:hover {
   border: 3px #34344e solid;
 }
 
@@ -101,11 +101,11 @@
     width: 100%;
   }
 
-  .Btn{
+  .optionBtn{
     text-align: center;
   }
 
-  .Btn button {
+  .optionBtn button {
     width: 40%;
     margin: 10px;
   }
@@ -124,11 +124,11 @@
     width: 100%;
   }
 
-  .Btn{
+  .optionBtn{
     text-align: center;
   }
 
-  .Btn button {
+  .optionBtn button {
     width: 40%;
     margin: 10px;
   }

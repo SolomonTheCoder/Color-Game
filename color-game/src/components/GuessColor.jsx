@@ -61,7 +61,7 @@ const GuessColor = () => {
                 </div>
                 <div className="colorBox" data-testid="colorBox" style={{ backgroundColor: color[changeColor][0] }}>
                 </div>
-                <div className="Btn">
+                <div className="optionBtn" data-testid="colorOption">
                     {randomColors.map((shade, index) =>
                     (<button key={index} onClick={() => checkColor(shade)} style={{ background: shade }}>
                     </button>)
