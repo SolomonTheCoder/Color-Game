@@ -41,25 +41,25 @@
 }
 
 .gameStatus p {
-  margin: 9px 0;
+  margin: 5px 0;
 }
 
-.fade {
-  animation: fade-in-out 2s ease-in-out;
+.fadeUp {
+  animation: fade-up 2s ease-in-out;
 }
 
-@keyframes fade-in-out {
+@keyframes fade-up {
   0% {
     opacity: 0;
-    transform: translateX(-10px);
+    transform: translateY(-10px);
   }
   50% {
     opacity: 1;
-    transform: translateX(0);
+    transform: translateY(0);
   }
   100% {
     opacity: 0;
-    transform: translateX(10px);
+    transform: translateY(10px);
   }
 }
 

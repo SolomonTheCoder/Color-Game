@@ -28,9 +28,9 @@ const GuessColor = () => {
 
 
     const checkColor = (selectedColor) => {
-        setAnimate(false)
+        setAnimate(true)
         setTimeout(() =>
-            setAnimate(true), 10);
+            setAnimate(false), 2000);
 
         selectedColor === color[changeColor][0] ?
             (setMessage("Correct Guess"),
@@ -67,7 +67,7 @@ const GuessColor = () => {
                     </button>)
                     )}
                 </div>
-                <div className={`gameStatus ${animate ? "fade" : ""}`} style={{ display: display ? "flex" : "none" }} data-testid="gameStatus">
+                <div className={`gameStatus ${animate ? "fadeUp" : ""}`} style={{ display: display ? "flex" : "none" }} data-testid="gameStatus">
                     <p style={{ color: message === "Correct Guess" ? correct.color : incorrect.color }}>{message}</p>
                 </div>
                 <div className="Score" data-testid="score">
